@@ -1,0 +1,14 @@
+server:
+  port: 6001
+
+spring:
+  aop:
+    auto: true
+    # 使用CGLIB来实现AOP
+    proxy-target-class: false
+#spring:
+#  datasource: jdbc://mysql/localhost:3306/
+#    url:
+#    username:
+#    password:
+#    driver-class-name: com.mysql.jdbc.Driver
